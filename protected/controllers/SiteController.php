@@ -15,6 +15,38 @@ class SiteController extends Controller
 		);
 	}
 
+public function actionRegister()
+{
+$model = new Usuarios;
+
+if(isset($_POST['Usuarios'])){
+$model->attributes = $_POST['Usuarios'];
+$cleanpassword = $model->password;
+$model->password = MD5($model->password);
+
+if($model->save()){
+
+	$loginForm = new LoginForm;
+	$loginForm->username = $model->nick;
+	$loginForm->password = $cleanpassword;
+
+	if($loginForm->login()){
+		$this->redirect(array('index'));
+
+		}
+	}
+	else{
+		Yii::app()->user->setFlash('error','No se pudo registrar el usuario');
+
+	}
+
+}
+
+$this->render('register', array('model'=>$model,));
+
+
+}
+
 	/**
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
