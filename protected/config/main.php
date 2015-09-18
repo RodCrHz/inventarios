@@ -10,7 +10,7 @@ return array(
 	'name'=>'My Web Application',
 
 	// preloading 'log' component
-	'preload'=>array('log'),
+	'preload'=>array('log', 'bootstrap'),
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -37,7 +37,10 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
-
+		'bootstrap'=>array(
+			'class'=>'ext.bootstrap.components.Booster', //es Booster y no boopstrap
+ 
+			),
 		// uncomment the following to enable URLs in path-format
 		/*
 		'urlManager'=>array(

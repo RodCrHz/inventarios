@@ -1,0 +1,300 @@
+2015/09/18 19:30:21 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:34:50 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:34:51 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:34:52 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:34:54 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:35:12 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:35:14 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:36:05 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:36:06 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:36:07 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:41:49 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:41:51 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:41:52 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:43:00 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:43:09 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:44:22 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:44:23 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:45:49 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:48:06 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:48:07 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:48:08 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:48:09 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:48:10 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:50:44 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
+2015/09/18 19:50:46 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(530): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(167): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii\framework\YiiBase.php(125): CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\inventario\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/inventario/
+---
