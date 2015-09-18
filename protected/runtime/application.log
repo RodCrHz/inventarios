@@ -298,3 +298,135 @@ Stack trace:
 #7 {main}
 REQUEST_URI=/inventario/
 ---
+2015/09/18 20:21:06 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbNavBar" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:348
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\inventario\protected\views\layouts\main.php(20): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\inventario\protected\controllers\SiteController.php(32): CController->render('index')
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\inventario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/inventario/index.php?r=site/index
+HTTP_REFERER=http://localhost/inventario/index.php?r=site/login
+---
+2015/09/18 20:23:23 [error] [exception.CException] exception 'CException' with message 'Alias "Booster.widgets.TbNavBar" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:348
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('Booster.widgets...', true)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'Booster.widgets...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('Booster.widgets...', Array)
+#3 C:\xampp\htdocs\inventario\protected\views\layouts\main.php(20): CBaseController->widget('Booster.widgets...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\inventario\protected\controllers\SiteController.php(32): CController->render('index')
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\inventario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/inventario/index.php?r=site/index
+HTTP_REFERER=http://localhost/inventario/index.php?r=site/login
+---
+2015/09/18 20:23:25 [error] [exception.CException] exception 'CException' with message 'Alias "Booster.widgets.TbNavBar" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:348
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('Booster.widgets...', true)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'Booster.widgets...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('Booster.widgets...', Array)
+#3 C:\xampp\htdocs\inventario\protected\views\layouts\main.php(20): CBaseController->widget('Booster.widgets...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\inventario\protected\controllers\SiteController.php(32): CController->render('index')
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\inventario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/inventario/index.php?r=site/index
+HTTP_REFERER=http://localhost/inventario/index.php?r=site/login
+---
+2015/09/18 20:23:26 [error] [exception.CException] exception 'CException' with message 'Alias "Booster.widgets.TbNavBar" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:348
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('Booster.widgets...', true)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'Booster.widgets...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('Booster.widgets...', Array)
+#3 C:\xampp\htdocs\inventario\protected\views\layouts\main.php(20): CBaseController->widget('Booster.widgets...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\inventario\protected\controllers\SiteController.php(32): CController->render('index')
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\inventario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/inventario/index.php?r=site/index
+HTTP_REFERER=http://localhost/inventario/index.php?r=site/login
+---
+2015/09/18 20:25:20 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbNavbar" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:348
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\inventario\protected\views\layouts\main.php(20): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\inventario\protected\controllers\SiteController.php(32): CController->render('index')
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\inventario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/inventario/index.php?r=site/index
+HTTP_REFERER=http://localhost/inventario/index.php?r=site/login
+---
+2015/09/18 20:25:24 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbNavbar" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:348
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\inventario\protected\views\layouts\main.php(20): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\inventario\protected\controllers\SiteController.php(32): CController->render('index')
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\inventario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/inventario/index.php?r=site/index
+HTTP_REFERER=http://localhost/inventario/index.php?r=site/login
+---
