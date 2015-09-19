@@ -50,11 +50,11 @@ class Usuarios extends CActiveRecord
 	 * @return array customized attribute labels (name=>label)
 	 */
 	public function attributeLabels()
-	{
+	{  //el modelo crea sus labels
 		return array(
 			'id' => 'ID',
-			'nick' => 'Nick',
-			'password' => 'Password',
+			'nick' => 'Usuario', 
+			'password' => 'Contrase&ntilde;a',
 		);
 	}
 
