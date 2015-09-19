@@ -23,23 +23,37 @@ class UserIdentity extends CUserIdentity
 	 */
 	public function authenticate()
 	{
-		$model = Usuarios::model()->findByAttributes(array(
-			'nick'=>$this->username,
 
-			));
+		//$users= User::model()->findByAttributes(array('username'=>$this->username));
 
-		if ($model === null){
+		//login funcional (sin otras validaciones)
+		$model1 = Usuarios::model()->findByAttributes(array('nick'=>$this->username,));
+
+		if($model1===null) {
+                $this->errorCode = self::ERROR_USERNAME_INVALID;                
+            }
+            
+            else {           
+                $this->errorCode = self::ERROR_NONE;
+                $this->_id = $model1->id;
+            }
+            return !$this->errorCode;
+
+
+
+/*
+		if ($model1 === null){
 			$this->errorCode=self::ERROR_USERNAME_INVALID;
 
 		}else{
-			if ($model->password === MD5($this->password)){
+			if ($model1->password === MD5($this->password)){
 			$this->errorCode=self::ERROR_NONE;
-			$this->_id = $model->id;
+			$this->_id = $model1->id;
 
 			}
 			$this->errorCode=self::ERROR_PASSWORD_INVALID;
 		}
 
-		return !$this->errorCode;
+		return !$this->errorCode; */
 	}
 }
