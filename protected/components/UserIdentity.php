@@ -29,15 +29,23 @@ class UserIdentity extends CUserIdentity
 		//login funcional (sin otras validaciones)
 		$model1 = Usuarios::model()->findByAttributes(array('nick'=>$this->username,));
 
-		if($model1===null) {
+		if($model1===null or $this->username ==='%%') {
                 $this->errorCode = self::ERROR_USERNAME_INVALID;                
             }
             
-            else {           
+            else {
+            if ($model1->password===MD5($this->password) )
+            {           
                 $this->errorCode = self::ERROR_NONE;
                 $this->_id = $model1->id;
             }
+            else
+            {
+            	$this->errorCode=self::ERROR_PASSWORD_INVALID;
+            }
+            }
             return !$this->errorCode;
+
 
 
 
